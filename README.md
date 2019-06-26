@@ -53,8 +53,8 @@ services:
     environment:
       CASSANDRA_HOST_IPS: 127.0.0.1
       CASSANDRA_PORT: 9042
-	  CASSANDRA_USER: cassandra
-	  CASSANDRA_PASSWORD: cassandra
+      CASSANDRA_USER: cassandra
+      CASSANDRA_PASSWORD: cassandra
     ports:
     - 3000:3000
 ```
